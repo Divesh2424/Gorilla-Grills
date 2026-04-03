@@ -41,7 +41,7 @@ body {
 /* HERO */
 .hero {
     height: 100vh;
-    background: url("/images/homebg.jpeg") center/cover no-repeat;
+    background: url("images/homebg.jpeg") center/cover no-repeat;
     display: flex;
     align-items: center;
 }
@@ -85,4 +85,23 @@ body {
     display: flex;
     justify-content: space-around;
     padding: 20px;
+}
+
+.insta-link{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+.insta-link:hover {
+    color: #ff4d00;
+}
+
+.location-link{
+     text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.location-link:hover {
+    color: #ff4d00;
 }

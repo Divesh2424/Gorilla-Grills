@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #0f0f0f;
+    color: white;
+}
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-links a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.nav-links a:hover {
+    color: #ff4d00;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background: black;
+}
+
+/* HERO */
+.order-hero {
+    height: 60vh;
+    position: relative;
+    overflow: hidden;
+}
+
+/* BACKGROUND SLIDER */
+.bg-slider {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    animation: slideBg 12s infinite;
+    z-index: 0;
+}
+
+/* OVERLAY */
+.overlay {
+    position: relative;
+    z-index: 1;
+    background: rgba(0,0,0,0.6);
+    padding: 40px;
+    margin-top: 40px;
+}
+
+/* ANIMATION */
+@keyframes slideBg {
+    0% {
+        background-image: url("/images/homebg.jpeg");
+    }
+    33% {
+        background-image: url("/images/about1.jpeg");
+    }
+    66% {
+        background-image: url("/images/parallax.jpeg");
+    }
+    100% {
+        background-image: url("/images/homebg.jpeg");
+    }
+}
+
+.overlay h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.status {
+    margin: 15px 0;
+    border: 1px solid #555;
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 20px;
+}
+
+.pickup-btn {
+    padding: 10px 20px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    margin-top: 10px;
+}
+
+.info {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+/* MENU */
+.menu-list {
+    padding: 40px;
+}
+
+.menu-list h2 {
+    margin-bottom: 20px;
+    color: #ff4d00;
+}
+
+/* ITEM */
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1c1c1c;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.menu-item h3 {
+    margin-bottom: 5px;
+}
+
+/* BUTTON */
+.add-btn {
+    padding: 8px 16px;
+    background: #ff4d00;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.add-btn:hover {
+    background: #ff6a2c;
+}
