@@ -105,3 +105,35 @@ body {
 .location-link:hover {
     color: #ff4d00;
 }
+
+/* NAV LINKS ALIGN */
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+/* CART ICON */
+.cart-icon {
+    position: relative;
+    margin-left: 25px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+/* HOVER EFFECT */
+.cart-icon:hover {
+    color: #ff4d00;
+}
+
+/* CART COUNT BADGE */
+.cart-count {
+    position: absolute;
+    top: -8px;
+    right: -10px;
+    background: #ff4d00;
+    color: white;
+    font-size: 9px;
+    padding: 2px 6px;
+    border-radius: 50%;
+}
