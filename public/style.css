@@ -137,3 +137,45 @@ body {
     padding: 2px 6px;
     border-radius: 50%;
 }
+/* DROPDOWN */
+.dropdown {
+    position: relative;
+    margin-left: 20px;
+}
+
+/* BUTTON */
+.more-btn {
+    cursor: pointer;
+    color: white;
+}
+
+/* POPUP BOX */
+.dropdown-content {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    background: black;
+    padding: 10px 0;
+    min-width: 150px;
+    display: none;
+    flex-direction: column;
+}
+
+/* LINKS */
+.dropdown-content a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+/* HOVER EFFECT */
+.dropdown-content a:hover {
+    /* background: #111; */
+    color: #ff4d00;
+}
+
+/* SHOW ON HOVER */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
